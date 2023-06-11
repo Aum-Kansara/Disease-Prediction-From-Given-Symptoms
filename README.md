@@ -9,9 +9,9 @@
 ### Step 5 : run following command : pip install python-dotenv
 ### Step 6 : run command : virtualenv env
 ### Step 7 : activate virtual environment using following command : 
-For Windows :-
-    .\env\Scripts\activate 
-For Linux and Mac OS :- 
+#### For Windows :-
+    .\env\Scripts\activate
+#### For Linux and Mac OS :- 
     source .\env\Scripts\bin
 ### Step 8 : run command : pip install -r requirements.txt
 ### Step 9 : run command : python app.py
