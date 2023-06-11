@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../static/style2.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symtomite Checkup</title>
+</head>
+<body>
+    <div class="main-container">
+        <!-- <span>Selected Symptoms</span> -->
+        <form action="/result" method="POST" name="google-sheet">
+            <label class="algoTxt">Selected Algorithm</label>
+            <input type="hidden" class="hiddenData" name="Data1" value="">
+            <div class="algoSelection">
+            <select name="algo" id="algo">
+                <option value="KNearestNeigboursClassifier">KNearestNeigbours Classifier</option>
+                <option value="DecisionTreeClassifier">DecisionTree Classifier</option>
+              </select>
+            </div>
+        <div class="selcted-symptoms">
+            <label class="labelTxt">Selected Symptoms</label>
+            <label class="requiredTxt"></label>
+            <ul id="addedSymptoms"></ul>
+        </div>
+        <div class="btnBox">
+        <input type="button" value="Submit" name="submit" class="button" onclick="validate()">
+        <input type="submit" value="" id="submitBtn" hidden onclick="resultPage()">
+        </div>
+        </form>
+    <div class="wrapper">
+        <div class="select-btn">
+            <span>Select Symptoms</span>
+            <i class="uil uil-angle-down"></i>
+        </div>
+        <div class="content">
+            <div class="search">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Select Symptoms from here" name="selectorInp" class="selectionInp">
+            </div>
+            <ul class="options">    
+            </ul>
+        </div>
+    </div>
+    <script src="../static/script.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Symptomite</title>
+        <link rel="stylesheet" type="text/css" href="../static/style.css">
+    </head>
+    <body>
+        <h2 data-text="&nbsp;Symptomite&nbsp;">&nbsp;Symptomite&nbsp;</h2>
+        <div class="inputBox">
+            <form action="/selection" method="POST" id="form">
+            <input spellcheck="false" type="text" name="nameInp" class="nameTxt" required="required">
+            <span>Enter Your Name</span>
+        </div>
+            <!-- <a href="javascript:;" onclick="document.getElementById('form').submit();"> -->
+            <a href="javascript:;" onclick="
+            if(document.querySelector('.nameTxt').value.trim()==''){
+                alert('Please Enter Your Name');
+            }
+            else{
+                document.getElementById('form').submit();
+            }">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Start CheckUp
+        <!-- </form> -->
+        </form>
+    </body>
+</html>
