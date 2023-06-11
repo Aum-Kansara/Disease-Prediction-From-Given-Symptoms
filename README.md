@@ -1,6 +1,6 @@
 # Disease-Prediction-From-Given-Symptoms
 
-## To run This App
+## To Run This App
 
 ### Step 1 : install Git (Or Download This Project Zip File)
 ### Step 2 : 
