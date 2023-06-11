@@ -2,7 +2,7 @@
 
 ## To run This App
 
-### Step 1 : install Git (Or Download Zip File)
+### Step 1 : install Git (Or Download This Project Zip File)
 ### Step 2 : #### run following command : (If Git installed)
     git clone https://github.com/Aum-Kansara/Disease-Prediction-From-Given-Symptoms.git 
 ### Step 3 : go to Newly Created Folder named Disease-Prediction-From-Given-Symptoms
