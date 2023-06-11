@@ -7,7 +7,7 @@
 ### Step 3 : go to Newly Created Folder named Disease-Prediction-From-Given-Symptoms
 ### Step 4 : open terminal on that folder path
 ### Step 5 : run following command : pip install python-dotenv
-### Step 6 : run command : virtualenv env
+### Step 6 : run command : #### virtualenv env
 ### Step 7 : activate virtual environment using following command : 
 #### For Windows :-
     .\env\Scripts\activate
