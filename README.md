@@ -10,7 +10,7 @@
 ### Step 4 : open terminal on that folder path
 ### Step 5 : 
 #### Run following Command :
-    pip install python-dotenv
+    pip install virtualenv
 ### Step 6 :  
 #### Run Command :
     virtualenv env
