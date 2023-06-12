@@ -26,4 +26,4 @@
 #### Run Command : 
     python app.py
 
-#### Do Step 4,7 and 9 for each time whenever want ro run
+#### Do Step 4, 7 and 9 for each time whenever want ro run
