@@ -7,7 +7,7 @@ hiddenData=document.querySelector(".hiddenData");
 requiredText=document.querySelector(".requiredTxt");
 let diseases=['Itching', 'Skin rash', 'Nodal skin eruptions', 'Continuous sneezing', 'Shivering', 'Chills', 'Joint pain', 'Stomach pain', 'Acidity',
 'Ulcers on tongue', 'Muscle wasting', 'Vomiting', 'Burning micturition', 'Spotting urination', 'Fatigue', 'Weight gain', 'Anxiety',
-'Cold hands and feets', 'Mood swings', 'Weight loss', 'Restlessness', 'Lethargy', 'Patches i throat', 'Irregular sugar level', 'Cough',
+'Cold hands and feets', 'Mood swings', 'Weight loss', 'Restlessness', 'Lethargy', 'Patches in throat', 'Irregular sugar level', 'Cough',
 'High fever', 'Sunken eyes', 'Breathlessness', 'Sweating', 'Dehydration', 'Indigestion', 'Headache', 'Yellowish skin', 'Dark urine',
 'Nausea', 'Loss of appetite', 'Pain behind the eyes', 'Back pain', 'Constipation', 'Abdominal pain', 'Diarrhoea', 'Mild fever',
 'Yellow urine', 'Yellowing of eyes', 'Acute liver failure', 'Fluid overload', 'Swelling of stomach', 'Swelled lymph nodes', 'Malaise',
