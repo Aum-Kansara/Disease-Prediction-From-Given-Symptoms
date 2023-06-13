@@ -52,7 +52,7 @@ def selectionPage():
 
 @app.route("/result",methods=["GET","POST"])
 def resultPage():
-    selected_sympt=[0 for x in range(len(all_diseases))]
+    selected_sympt=[0 for x in range(132)]
     if request.method=="POST":
         a=request.form.get("Data1")
         algorithm=request.form.get("algo")
