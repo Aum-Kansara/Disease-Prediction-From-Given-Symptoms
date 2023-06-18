@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1f242d;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container>h3{
+    padding-bottom: 15px;
+}
+
+.selectedDiseases{
+    border: 2px solid white;
+    height: 400px;
+    width: 200px;
+    margin-top: 15px;
+    overflow: scroll;
+}
+
+.diseases{
+     list-style-type: none;
+     text-align: center;
+}
+
+li{
+    padding: 3px;
+}
+
+.btn{
+    width: 200px;
+    padding-top: 10px;
+    margin: 10px;
+    
+}
+.list{
+    color: cyan;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Select box */
+
+.opts{
+    text-align: center;
+    color: cyan;
+    overflow: hidden;
+}
+
+.select-box {
+    cursor: pointer;
+    position: relative;
+    max-width: 20em;
+    margin: 5em auto;
+    width: 100%;
+}
+
+.select,
+.label {
+    color: #d1c7c7;
+    display: block;
+    font: 400 17px/2em 'Source Sans Pro', sans-serif;
+}
+
+.select {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    padding: 5px 0;
+    height: 40px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    background: none transparent;
+    border: 0 none;
+}
+
+.select-box1 {
+    border: 1px solid #ececec;
+    position: absolute;
+    top: 20px;
+    margin: 20px;
+}
+
+
+.label {
+    position: relative;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.open .label::after {
+    content: "▲";
+}
+
+.label::after {
+    content: "▼";
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 15px;
+    border-left: 5px solid #fff;
+}
