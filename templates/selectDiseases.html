@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>select diseases</title>
+    <link rel="stylesheet" href="../static/selectDiseases.css" />
+  </head>
+  <body>
+    <div class="container">
+      <label for="select-box1" class="label select-box1">
+        <span class="label-desc">Select Diseases</span>
+      </label>
+      <select
+        name="select-box1"
+        class="select"
+        id="select-box1"
+        onchange="updateDiv(this)"
+      ></select>
+      <div class="selectedDiseases">
+        <ul class="diseases" id="dcs"></ul>
+      </div>
+      <button class="btn" type="submit" onclick="sendSelectedDiseases()">
+        SUBMIT
+      </button>
+      <button class="btn" type="submit" onClik="printdiseaseList()">
+        test
+      </button>
+    </div>
+
+    <script src="../static/dcsScript.js"></script>
+  </body>
+</html>

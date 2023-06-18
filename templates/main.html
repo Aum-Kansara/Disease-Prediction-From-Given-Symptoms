@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/main.css" />
+    <link rel="stylesheet" href="../static/buttons.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="MainCont" id="MainCont">
+      <div class="cont"><h3>Select algorithm</h3></div>
+      <div class="Container" id="algoCont">
+        <a
+          href="./selectDiseases.html"
+          class="btn-flip"
+          data-back="Suppose there are two categories, i.e., Category A and Category B, and we have a new data point x1, so this data point will lie in which of these categories. To solve this type of problem, we need a K-NN algorithm. With the help of K-NN, we can easily identify the category or class of a particular dataset"
+          data-front="KNN"
+          onclick="updatePage('KNN')"
+        ></a>
+        <a
+          href="./selectDiseases.html"
+          class="btn-flip"
+          data-back="Suppose there is a candidate who has a job offer and wants to decide whether he should accept the offer or Not. So, to solve this problem, the decision tree starts with the root node (Salary attribute by ASM). The root node splits further into the next decision node (distance from the office) and one leaf node based on the corresponding labels. The next decision node further gets split into one decision node (Cab facility) and one leaf node. Finally, the decision node splits into two leaf nodes (Accepted offers and Declined offer)"
+          data-front="Decision Tree"
+          onclick="updatePage('DT')"
+        ></a>
+      </div>
+    </div>
+
+    <div class="diseases" id="diseaseCont">
+      <div class="selectionBox"></div>
+    </div>
+
+    <!-- Scripts -->
+
+    <script>
+      var algoVal = "";
+      function updatePage(algo) {
+        algoVal = algo;
+      }
+    </script>
+  </body>
+</html>
