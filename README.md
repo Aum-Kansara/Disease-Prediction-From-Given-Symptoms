@@ -1,6 +1,9 @@
 # Disease-Prediction-From-Given-Symptoms
+# Home Page
+![Symptomite](https://github.com/Aum-Kansara/Disease-Prediction-From-Given-Symptoms/assets/117375317/548e6e31-6f07-49ae-b761-934264ced6f1)
 
 ## To Run This App
+
 
 ### Step 1 : install Git (Or Download This Project Zip File)
 
